@@ -33,7 +33,7 @@ body
    --border-width: 1px;
    --color: #212529;
    --icon-color: #0D6EFD;
-   --colorize: invert(32%) sepia(77%) saturate(3778%) hue-rotate(208deg) brightness(99%) contrast(102%);
+   --colorize: invert(52%) sepia(70%) saturate(7413%) hue-rotate(208deg) brightness(99%) contrast(102%);
 }
 .wb-theme-button, .wb-theme-static
 {
@@ -95,7 +95,7 @@ body
    --border-width: 1px;
    --color: #DEE2E6;
    --icon-color: #0D6EFD;
-   --colorize: invert(25%) sepia(87%) saturate(3264%) hue-rotate(212deg) brightness(105%) contrast(95%);
+   --colorize: invert(33%) sepia(86%) saturate(4492%) hue-rotate(210deg) brightness(101%) contrast(95%);
 }
 .darktheme .wb-theme-button, .darktheme .wb-theme-static
 {
@@ -295,9 +295,9 @@ body
 }
 #HorizontalLine1
 {
-   border-color: #0000FF;
+   border-color: transparent;
    border-style: solid;
-   border-bottom-width: 15px;
+   border-bottom-width: 9px;
    border-top: 0;
    border-left: 0;
    border-right: 0;
@@ -327,9 +327,9 @@ body
 }
 #HorizontalLine2
 {
-   border-color: #0000FF;
+   border-color: transparent;
    border-style: solid;
-   border-bottom-width: 15px;
+   border-bottom-width: 9px;
    border-top: 0;
    border-left: 0;
    border-right: 0;
@@ -359,9 +359,9 @@ body
 }
 #HorizontalLine3
 {
-   border-color: #0000FF;
+   border-color: transparent;
    border-style: solid;
-   border-bottom-width: 15px;
+   border-bottom-width: 9px;
    border-top: 0;
    border-left: 0;
    border-right: 0;
@@ -402,7 +402,7 @@ body
    font-family: Impact;
    font-weight: normal;
    font-style: normal;
-   font-size: 27px;
+   font-size: 21px;
 }
 #Card1-card-item0 a
 {
@@ -418,4 +418,17 @@ body
    border-width: 1px 0 0 0;
    height: 0;
    line-height: 0;
+}
+#HorizontalLine4
+{
+   border-color: transparent;
+   border-style: solid;
+   border-bottom-width: 9px;
+   border-top: 0;
+   border-left: 0;
+   border-right: 0;
+   height: 0 !important;
+   line-height: 0 !important;
+   margin: 0;
+   padding: 0;
 }
